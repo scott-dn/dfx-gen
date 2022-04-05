@@ -1,2 +1,5 @@
-# dfx-gen
-dfx-gen
+# dfx gen
+
+```bash
+$ cargo run --release
+```

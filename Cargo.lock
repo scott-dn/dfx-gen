@@ -66,6 +66,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "dfx-gen"
+version = "0.1.0"
+dependencies = [
+ "ic-types",
+ "pem",
+ "rand",
+ "ring",
+ "simple_asn1",
+]
+
+[[package]]
 name = "digest"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -129,17 +140,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a38fc24e30fd564ce974c02bf1d337caddff65be6cc4735a1f7eab22a7440f04"
 dependencies = [
  "wasm-bindgen",
-]
-
-[[package]]
-name = "key-gen"
-version = "0.1.0"
-dependencies = [
- "ic-types",
- "pem",
- "rand",
- "ring",
- "simple_asn1",
 ]
 
 [[package]]
